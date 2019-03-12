@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BT5</title>
+</head>
+<body>
+<script>
+    let a = prompt("so da cho thu nhat")
+    let b = prompt("so da cho thu hai")
+    let c = prompt("so da cho thu ba")
+    let ketqua;
+    denta =b*b-4*a*c
+    nghiemkep=-b/(2*a)
+    X1=(-b+Math.sqrt(denta))/2 * a
+    X2 =(-b - Math.sqrt(denta))/2* a
+    if (denta < 0){
+        ketqua =("phuong trinh vo nghiem")
+    }else if(denta=0){
+        ketqua = ("x1=x2="+ nghiemkep)
+    }else {
+        ketqua= ("x1=" + X1 +""+ "hoac" +""+"x2="+X2)
+    }
+    document.write(ketqua)
+</script>
+</body>
+</html>
